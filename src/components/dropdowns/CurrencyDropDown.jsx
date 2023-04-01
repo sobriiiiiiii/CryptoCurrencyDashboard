@@ -17,7 +17,7 @@ const Select = styled.select`
   height: 50px;
   overflow: scroll;
   font-weight: 700;
-  background-color: #e6ecff;
+  background-color: #00BFFF;
   margin: 1%;
   border: none;
   border-radius: 10px;

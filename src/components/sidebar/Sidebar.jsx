@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Top Trending Crypto Currencies by Coin Market </Title>
+        <Title>Top Crypto Currencies by Coin Market </Title>
         <SyncLoader color="rgb(0, 51, 102)" size={10} loading={isFetching} />
         <Coins>
           {data && data.map((coin) => <CoinCard key={coin.id} coin={coin} />)}

@@ -51,7 +51,7 @@ export const Title = styled.p`
   flex: 4;
   font-weight: 800;
   font-size: 1rem;
-  color: ${(props) => (props.variant === "sell" ? "orange" : "green")};
+  color: ${(props) => (props.variant === "sell" ? "red" : "green")};
   font-size: clamp(0.5rem, 0.5vw + 0.5rem, 1rem);
   margin-right: 1%;
 `;
@@ -67,7 +67,7 @@ export const Select = styled.select`
   height: 50px;
   overflow: scroll;
   font-weight: 700;
-  background-color: #e6ecff;
+  background-color: #D8BFD8;
   border: none;
   border-radius: 10px;
   font-size: clamp(0.5rem, 0.5vw + 0.5rem, 0.7rem);
@@ -127,7 +127,7 @@ export const Bottom = styled.div`
 export const Button = styled.button`
   width: 150px;
   min-height: 50px;
-  background-color: blue;
+  background-color: #00BFFF;
   margin: 1%;
   color: white;
   font-weight: 700;

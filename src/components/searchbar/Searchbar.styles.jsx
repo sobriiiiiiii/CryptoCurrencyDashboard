@@ -16,7 +16,7 @@ export const SearchOutPutContainer = styled.div`
   width: 50%;
   max-height: 90px;
   overflow-y: scroll;
-  background-color: #c2d1f0;
+  background-color: #ADD8E6;
   padding-left: 1%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;

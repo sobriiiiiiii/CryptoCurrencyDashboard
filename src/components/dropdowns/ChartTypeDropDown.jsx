@@ -12,7 +12,7 @@ const Container = styled.div`
 const Select = styled.select`
   width: 100%;
   height: 50px;
-  background-color: #e6ecff;
+  background-color: #00BFFF;
   border: none;
   border-radius: 10px;
   font-weight: 500;

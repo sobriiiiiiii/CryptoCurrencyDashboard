@@ -42,7 +42,7 @@ const Title = styled.p`
   }
 `;
 const TotalValue = styled.p`
-  color: gray;
+  color: black;
   font-size: calc(0.5vw + 0.5rem);
 `;
 const Bottom = styled.div`
@@ -64,9 +64,9 @@ function PieChart() {
       {
         data: marketData?.slice(0, 3).map((coin) => coin.total_volume),
         backgroundColor: [
-          "rgb(236, 107, 86)",
-          "rgb(255, 193, 84)",
-          "rgb(71, 179, 156)",
+          "rgb(255, 165, 0)",
+          "rgb(243, 116, 187)",
+          "rgb(147, 112, 219)",
         ],
         borderWidth: 1,
         borderColor: "rgb(255, 255, 255)",
